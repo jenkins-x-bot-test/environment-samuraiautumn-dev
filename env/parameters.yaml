@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:samuraiautumn/adminUser:password
+  username: admin
+dashboardAuthID: vault:samuraiautumn:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:samuraiautumn:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:samuraiautumn/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:samuraiautumn/prow:hmacToken
